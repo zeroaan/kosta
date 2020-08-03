@@ -18,7 +18,7 @@ int sort_main(); // 13. 숫자 정렬 메인
 int sort_main2(); // 14. 문자 정렬 메인
 
 int main() {
-	array();
+	sort_main2();
 
 	return 0;
 }
