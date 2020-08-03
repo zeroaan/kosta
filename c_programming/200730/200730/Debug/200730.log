@@ -1,0 +1,4 @@
+﻿  main.c
+E:\project\200730\200730\main.c(34,9): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+E:\project\200730\200730\main.c(35,9): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+  200730.vcxproj -> E:\project\200730\Debug\200730.exe
