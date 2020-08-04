@@ -14,18 +14,29 @@ int sum_num(int* array, int size); // 8. 합계 출력 함수
 void mms_mode(); // 9. 최소, 최대, 합계 동작모드(배열 크기 고정)
 void mms_mode2(); // 10. 최소, 최대, 합계 동작모드(배열 크기 입력)
 void mode_input(int* array, int size); // 11. 모드 선택 후 출력
+void struct_test(); // 12. 구조체 실습
 
 int main() {
-	mms_mode2();
+	struct_test();
+
 	return 0;
 }
 
 void test() {
-	char* p1;
-	int* p2;
-	float* p3;
-	double* p4;
-	printf("%d %d %d %d\n", sizeof(p1), sizeof(p2), sizeof(p3), sizeof(p4));
+	int n = 10;
+	int* np = &n;
+	*np = 20;
+	printf("%d\n", n);
+}
+
+struct person {
+	char name[100];
+	int age;
+};
+
+void struct_test() {
+	struct person a = { "Ahn", 25 };
+	printf("%s %d\n", a.name, a.age);
 }
 
 void mode_input(int* array, int size) {
