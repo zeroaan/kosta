@@ -1,2 +1,4 @@
 ﻿  main.c
+E:\programming\c_programming\200805\200805\main.c(32,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\programming\c_programming\200805\200805\main.c(37,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   200805.vcxproj -> E:\programming\c_programming\200805\Debug\200805.exe

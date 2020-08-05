@@ -5,9 +5,9 @@
 
 void test(); // 1. 혼자 실습
 void struct_test(); // 2. 구조체 실습
-void score_array(); // 3. 저번에 했던 점수 입력 문제를 구조체로 만들기
-void score_array2(); // 3. 저번에 했던 점수 입력 문제를 구조체로 만들기
-int rank_count(float avg[], int i); // 4. 저번에 했던 순위 구하기
+void struct_test2(); // 3. 텍스트 파일로 입출력 실습
+void score_array(); // 4. 저번에 했던 점수 입력 문제를 구조체로 만들기
+int rank_count(float avg[], int i); // 5. 저번에 했던 순위 구하기
 
 struct person {
 	char name[20];
@@ -16,13 +16,32 @@ struct person {
 };
 
 int main() {
-	score_array2();
+	score_array();
 
 	return 0;
 }
 
 void test() {
 
+}
+
+void struct_test2() {
+	struct person man[MAN_NUM];
+	struct person* pMan;
+	pMan = man;
+	FILE* fp = fopen("E:\\programming\\c_programming\\test.txt", "rb");
+
+	for (int i = 0; i < MAN_NUM; i++) {
+		//printf("이름과 전화번호를 입력하세요 (%d/%d) : \n", i + 1, MAN_NUM);
+		//scanf_s("%s %s", man[i].name, sizeof(man[i].name), man[i].phone, sizeof(man[i].phone));
+		fscanf(fp, "%s %s", man[i].name, man[i].phone);
+		//printf("\n");
+	}
+
+	printf("%5s %20s %20s\n", " ", "이름", "전화번호");
+	for (int i = 0; i < MAN_NUM; i++) {
+		printf("%5s %20s %20s\n", " ", (&pMan[i])->name, (*(pMan + i)).phone);
+	}
 }
 
 void struct_test() {
@@ -78,12 +97,9 @@ struct student {
 	float kor;
 	float eng;
 	float math;
-	float sum;
-	float avg;
-	int rank;
 };
 
-void score_array2() {
+void score_array() {
 	struct student stu[STU_MAX];
 	struct student* pStu;
 	pStu = stu;
@@ -122,57 +138,6 @@ void score_array2() {
 			if (rank[j] == i + 1) {
 				printf("%s %10s %8.2f %8.2f %8.2f %8.2f %8.2f %7d\n",
 					" ", (pStu + j)->name, (pStu + j)->kor, (pStu + j)->eng, (pStu + j)->math, sum[j], avg[j], rank[j]);
-			}
-		}
-	}
-
-	// 입력 순서대로 출력
-	/*
-	for (int i = 0; i < student; i++) {
-	printf("\n%10s 학생 : %8.2f  %8.2f  %8.2f  %8.2f  %8.2f  %4d\n",
-	name[i], score[i][0], score[i][1], score[i][2], sum[i], avg[i], rank[i]);
-	}*/
-	printf("%s\n", "  ---------------------------------------------------------------------");
-}
-
-void score_array() {
-	struct student stu[STU_MAX];
-	struct student* pStu;
-	pStu = stu;
-
-	float avg_rank[STU_MAX];
-
-	for (int i = 0; i < STU_MAX; i++) {
-		printf("\n학생 이름(%d/%d) : ", i+1, STU_MAX);
-		scanf_s("%s", stu[i].name, sizeof(stu[i].name));
-		printf("국어 점수를 입력하세요. : ");
-		scanf_s("%f", &stu[i].kor);
-		printf("영어 점수를 입력하세요. : ");
-		scanf_s("%f", &stu[i].eng);
-		printf("수학 점수를 입력하세요. : ");
-		scanf_s("%f", &stu[i].math);
-	}
-
-	for (int i = 0; i < STU_MAX; i++) {
-		(*(pStu + i)).sum = stu[i].kor + stu[i].eng + stu[i].math;
-		(*(pStu + i)).avg = (*(pStu + i)).sum / 3;
-	}
-
-	for (int i = 0; i < STU_MAX; i++) {
-		(*(pStu + i)).rank = rank_count(avg_rank, i);
-	}
-
-	printf("\n%s\n", "  ---------------------------------------------------------------------");
-	printf("%s %10s %8s %8s %8s %8s %8s %8s",
-		" ", "이름", "국어", "영어", "수학", "총점", "평균", "등수");
-	printf("\n%s\n", "  ---------------------------------------------------------------------");
-
-	// 등수대로 출력
-	for (int i = 0; i < STU_MAX; i++) {
-		for (int j = 0; j < STU_MAX; j++) {
-			if ((*(pStu + j)).rank == i + 1) {
-				printf("%s %10s %8.2f %8.2f %8.2f %8.2f %8.2f %7d\n",
-					" ", (pStu + j)->name, (pStu + j)->kor, (pStu + j)->eng, (pStu + j)->math, (pStu + j)->sum, (pStu + j)->avg, (pStu + j)->rank);
 			}
 		}
 	}
