@@ -1,0 +1,5 @@
+﻿  main.c
+E:\programming\c_programming\200806\200806\main.c(21,18): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\programming\c_programming\200806\200806\main.c(32,18): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\programming\c_programming\200806\200806\main.c(50,18): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  200806.vcxproj -> E:\programming\c_programming\200806\Debug\200806.exe
