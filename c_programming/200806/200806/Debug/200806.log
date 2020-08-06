@@ -1,5 +1,64 @@
 ﻿  main.c
-E:\programming\c_programming\200806\200806\main.c(21,18): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\programming\c_programming\200806\200806\main.c(32,18): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\programming\c_programming\200806\200806\main.c(50,18): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\programming\c_programming\200806\200806\main.c(40,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\programming\c_programming\200806\200806\main.c(37,6): warning C4101: 'i1' :참조되지 않은 지역 변수입니다.
+E:\programming\c_programming\200806\200806\main.c(91,32): warning C4133: '함수': 'char [19]'과(와) 'FILE *const ' 사이의 형식이 호환되지 않습니다.
+E:\programming\c_programming\200806\200806\main.c(91,35): warning C4047: '함수': 'const char *const '의 간접 참조 수준이 'int'과(와) 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(91,35): warning C4024: 'fprintf': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(92,32): warning C4133: '함수': 'char [19]'과(와) 'FILE *const ' 사이의 형식이 호환되지 않습니다.
+E:\programming\c_programming\200806\200806\main.c(92,40): warning C4047: '함수': 'const char *const '의 간접 참조 수준이 'int'과(와) 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(92,40): warning C4024: 'fprintf': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(93,32): warning C4133: '함수': 'char [19]'과(와) 'FILE *const ' 사이의 형식이 호환되지 않습니다.
+E:\programming\c_programming\200806\200806\main.c(93,40): warning C4047: '함수': 'const char *const '의 간접 참조 수준이 'int'과(와) 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(93,40): warning C4024: 'fprintf': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(94,32): warning C4133: '함수': 'char [19]'과(와) 'FILE *const ' 사이의 형식이 호환되지 않습니다.
+E:\programming\c_programming\200806\200806\main.c(94,40): warning C4047: '함수': 'const char *const '의 간접 참조 수준이 'int'과(와) 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(94,40): warning C4024: 'fprintf': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(95,29): warning C4133: '함수': 'char [15]'과(와) 'FILE *const ' 사이의 형식이 호환되지 않습니다.
+E:\programming\c_programming\200806\200806\main.c(95,38): warning C4047: '함수': 'const char *const '의 간접 참조 수준이 'int'과(와) 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(95,38): warning C4024: 'fprintf': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(98,32): warning C4133: '함수': 'char [19]'과(와) 'FILE *const ' 사이의 형식이 호환되지 않습니다.
+E:\programming\c_programming\200806\200806\main.c(98,35): warning C4047: '함수': 'const char *const '의 간접 참조 수준이 'int'과(와) 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(98,35): warning C4024: 'fprintf': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(99,32): warning C4133: '함수': 'char [19]'과(와) 'FILE *const ' 사이의 형식이 호환되지 않습니다.
+E:\programming\c_programming\200806\200806\main.c(99,40): warning C4047: '함수': 'const char *const '의 간접 참조 수준이 'int'과(와) 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(99,40): warning C4024: 'fprintf': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(100,32): warning C4133: '함수': 'char [19]'과(와) 'FILE *const ' 사이의 형식이 호환되지 않습니다.
+E:\programming\c_programming\200806\200806\main.c(100,40): warning C4047: '함수': 'const char *const '의 간접 참조 수준이 'int'과(와) 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(100,40): warning C4024: 'fprintf': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(101,32): warning C4133: '함수': 'char [19]'과(와) 'FILE *const ' 사이의 형식이 호환되지 않습니다.
+E:\programming\c_programming\200806\200806\main.c(101,40): warning C4047: '함수': 'const char *const '의 간접 참조 수준이 'int'과(와) 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(101,40): warning C4024: 'fprintf': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(102,29): warning C4133: '함수': 'char [15]'과(와) 'FILE *const ' 사이의 형식이 호환되지 않습니다.
+E:\programming\c_programming\200806\200806\main.c(102,38): warning C4047: '함수': 'const char *const '의 간접 참조 수준이 'int'과(와) 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(102,38): warning C4024: 'fprintf': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(105,32): warning C4133: '함수': 'char [19]'과(와) 'FILE *const ' 사이의 형식이 호환되지 않습니다.
+E:\programming\c_programming\200806\200806\main.c(105,35): warning C4047: '함수': 'const char *const '의 간접 참조 수준이 'int'과(와) 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(105,35): warning C4024: 'fprintf': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(106,32): warning C4133: '함수': 'char [19]'과(와) 'FILE *const ' 사이의 형식이 호환되지 않습니다.
+E:\programming\c_programming\200806\200806\main.c(106,40): warning C4047: '함수': 'const char *const '의 간접 참조 수준이 'int'과(와) 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(106,40): warning C4024: 'fprintf': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(107,32): warning C4133: '함수': 'char [19]'과(와) 'FILE *const ' 사이의 형식이 호환되지 않습니다.
+E:\programming\c_programming\200806\200806\main.c(107,40): warning C4047: '함수': 'const char *const '의 간접 참조 수준이 'int'과(와) 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(107,40): warning C4024: 'fprintf': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(108,32): warning C4133: '함수': 'char [18]'과(와) 'FILE *const ' 사이의 형식이 호환되지 않습니다.
+E:\programming\c_programming\200806\200806\main.c(108,40): warning C4047: '함수': 'const char *const '의 간접 참조 수준이 'int'과(와) 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(108,40): warning C4024: 'fprintf': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(111,32): warning C4133: '함수': 'char [19]'과(와) 'FILE *const ' 사이의 형식이 호환되지 않습니다.
+E:\programming\c_programming\200806\200806\main.c(111,35): warning C4047: '함수': 'const char *const '의 간접 참조 수준이 'int'과(와) 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(111,35): warning C4024: 'fprintf': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(112,32): warning C4133: '함수': 'char [19]'과(와) 'FILE *const ' 사이의 형식이 호환되지 않습니다.
+E:\programming\c_programming\200806\200806\main.c(112,40): warning C4047: '함수': 'const char *const '의 간접 참조 수준이 'int'과(와) 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(112,40): warning C4024: 'fprintf': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(113,32): warning C4133: '함수': 'char [19]'과(와) 'FILE *const ' 사이의 형식이 호환되지 않습니다.
+E:\programming\c_programming\200806\200806\main.c(113,40): warning C4047: '함수': 'const char *const '의 간접 참조 수준이 'int'과(와) 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(113,40): warning C4024: 'fprintf': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(114,32): warning C4133: '함수': 'char [19]'과(와) 'FILE *const ' 사이의 형식이 호환되지 않습니다.
+E:\programming\c_programming\200806\200806\main.c(114,40): warning C4047: '함수': 'const char *const '의 간접 참조 수준이 'int'과(와) 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(114,40): warning C4024: 'fprintf': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(115,29): warning C4133: '함수': 'char [15]'과(와) 'FILE *const ' 사이의 형식이 호환되지 않습니다.
+E:\programming\c_programming\200806\200806\main.c(115,38): warning C4047: '함수': 'const char *const '의 간접 참조 수준이 'int'과(와) 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(115,38): warning C4024: 'fprintf': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\programming\c_programming\200806\200806\main.c(123,18): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\programming\c_programming\200806\200806\main.c(134,18): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\programming\c_programming\200806\200806\main.c(152,18): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   200806.vcxproj -> E:\programming\c_programming\200806\Debug\200806.exe
