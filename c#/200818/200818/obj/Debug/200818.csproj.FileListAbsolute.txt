@@ -1,0 +1,10 @@
+E:\programming\c#\200818\200818\bin\Debug\200818.exe
+E:\programming\c#\200818\200818\bin\Debug\200818.pdb
+E:\programming\c#\200818\200818\obj\Debug\200818.csprojAssemblyReference.cache
+E:\programming\c#\200818\200818\obj\Debug\_200818.Form1.resources
+E:\programming\c#\200818\200818\obj\Debug\_200818.Properties.Resources.resources
+E:\programming\c#\200818\200818\obj\Debug\200818.csproj.GenerateResource.cache
+E:\programming\c#\200818\200818\obj\Debug\200818.csproj.CoreCompileInputs.cache
+E:\programming\c#\200818\200818\obj\Debug\200818.exe
+E:\programming\c#\200818\200818\obj\Debug\200818.pdb
+E:\programming\c#\200818\200818\obj\Debug\_200818.PortSet.resources
