@@ -20,7 +20,7 @@ typedef struct person {
 } ps;
 
 int main() {
-	ascii2();
+	lotto();
 
 	return 0;
 }
